@@ -56,7 +56,7 @@ Without Netlify the blog itself works, but the contact form will not deliver mes
 
 ## Customising
 
-- Posts live in `content/blog/` as Markdown files with front matter (title, date, tags, image).
+- Posts live in `content/blog/` as Markdown files with front matter (title, publishedDate, description, featured, img, tags).
 - Site name, URL and description are set at the top of `gatsby-config.js`.
 - To change the logo, replace `static/logo.png` and run `npm run generate-favicon`.
 
